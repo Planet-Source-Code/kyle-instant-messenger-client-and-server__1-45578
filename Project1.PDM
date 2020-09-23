@@ -1,0 +1,96 @@
+[Root]
+Most Recent Package=Cruel Instant Messenger
+
+
+[Package|Cruel Instant Messenger|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Kyle\Desktop\New mess\New Pms\Package
+
+[Package|Cruel Instant Messenger|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Cruel Instant Messenger|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Cruel Instant Messenger|Files Found]
+
+[Package|Cruel Instant Messenger|Files Released]
+
+[Package|Cruel Instant Messenger|Missing Dependency Information]
+
+[Package|Cruel Instant Messenger|Out-of-Date Dependency Information]
+
+[Package|Cruel Instant Messenger|Files Added]
+
+[Package|Cruel Instant Messenger|Files Removed]
+
+[Package|Cruel Instant Messenger|Files In Project]
+C:\Documents and Settings\Kyle\Desktop\Messenger.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Cruel Instant Messenger|Configure Registry Files]
+Applicable=No
+
+[Package|Cruel Instant Messenger|Configure Remote Servers]
+Applicable=No
+
+[Package|Cruel Instant Messenger|Install Locations]
+C:\Documents and Settings\Kyle\Desktop\Messenger.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Cruel Instant Messenger|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Kyle\Desktop\Messenger.exe=No
+
+[Package|Cruel Instant Messenger|Distribution]
+Type=single
+Size=
+Title=Cruel Instant Messenger
+
+[Package|Cruel Instant Messenger|IconGroups]
+Group0=Cruel Instant Messenger
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Cruel Instant Messenger|Cruel Instant Messenger]
+Icon1=Messenger.exe
+Title1=Cruel Instant Messenger
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Cruel Instant Messenger|Package]
+PackageFolder=C:\Documents and Settings\Kyle\Desktop\New mess\New Pms\Package
+ProjectFolder=C:\Documents and Settings\Kyle\Desktop\New mess\New Pms
+ServerSideCab=
+File1=C:\Documents and Settings\Kyle\Desktop\New mess\New Pms\Package\setup.exe
+File2=C:\Documents and Settings\Kyle\Desktop\New mess\New Pms\Package\Setup.Lst
+File3=C:\Documents and Settings\Kyle\Desktop\New mess\New Pms\Package\Messenger.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
